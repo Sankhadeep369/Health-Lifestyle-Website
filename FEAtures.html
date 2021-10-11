@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1">
+        <title>PREVENTIFY</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200;400;600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/edc4c59027.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!---HEADER--->
+        <section class="hd3">
+            <nav>
+                <a href="index.html"><img src="img/logo.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="far fa-times-circle" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="Health.html">HEALTH</a></li>
+                        <li><a href="FEAtures.html">FEATURES</a></li>
+                        <li><a href="ABT us.html">ABOUT</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-ellipsis-h" onclick="showMenu()"></i>
+            </nav>
+            <h1>FEATURES</h1>
+         </section>
+
+         <!--appf-->
+         <section class="hal">
+            <div class="row">
+                <div class="lf">
+                    <h1>Application Features</h1>
+                    <p>Health apps are application programs that offer health-related services for smartphones and tablet PCs. 
+                        Because they're accessible to patients both at home and on-the-go, health apps are a part of the movement 
+                        towards mobile health (mHealth) programs in health care. Our app provides many latest technology embedded a few are listed below.</p>
+                </div>
+           </section>
+
+            <section class="af2">
+                <div class="row">   
+                 <div class="f2">
+                     <h2>Implemented AI(Chatbot)</h2>
+                     <p>Chatbots – also known as “conversational agents” – are software applications that mimic written or 
+                         spoken human speech for the purposes of simulating a conversation or interaction with a real person.
+                        Our chatbot is able to contact the user and help them with various features inbuilt natively within the bot.</p>
+                 </div>
+                 <div class="f22">
+                    <img src="img/bot.png" class="centre">
+                 </div>
+                </div>
+            </section>
+
+            <section class="af3">
+                <div class="row">
+                 <div class="f3">
+                     <h2>Heart Rate Moniter</h2>
+                     <p>A heart rate monitor (HRM) is a personal monitoring device that allows one to measure/display
+                         heart rate in real time or record the heart rate for later study. 
+                         It is largely used to gather heart rate data while performing various types of physical exercise.</p>
+                 </div>
+                 <div class="f33">
+                    <img src="img/heartr.png" class="centre" width="500" height="200" style="border:0;">
+                 </div>
+                </div>
+            </section>
+
+            <section class="af4">
+                <div class="row">
+                 <div class="f4">
+                     <h2>BP Moniter</h2>
+                     <p>High blood pressure or hypertension can lead to serious health problems like stroke or heart attack.
+                         So we have a built in BP tracker to keep a tab of the the users bp and give the live data back. 
+                         This helps the user to maintain thier BP and stay away from any further complication or problems.
+                     </p>
+                 </div>
+                 <div class="f44">
+                    <img src="img/bp.png" class="centre" width="500" height="250" style="border:0;">
+                 </div>
+                </div>
+            </section>
+
+            <section class="af5">
+                <div class="row">
+                 <div class="f5">
+                     <h2>Pedometer</h2>
+                     <p>A pedometer is a device, usually portable and electronic or electromechanical, 
+                         that counts each step a person takes by detecting the motion of the person's hands or hips. 
+                         Because the distance of each person's step varies, an informal calibration, performed by the user, 
+                         is required if presentation of the distance covered in a unit of length (such as in kilometers or miles) 
+                         is desired, though there are now pedometers that use electronics and software to automatically 
+                         determine how a person's step varies</p>
+                 </div>
+                 <div class="f55">
+                    <img src="img/step.png" class="centre">
+                 </div>
+                </div>
+         </section>
+         <section class="af6">
+            <div class="row">
+             <div class="f6">
+                 <h2>Activity Tracker</h2>
+                 <p>An activity tracker, also known as a fitness tracker, is a device or application for monitoring and 
+                     tracking fitness-related metrics such as distance walked or run, 
+                     calorie consumption, and in some cases heartbeat.</p>
+             </div>
+             <div class="f66">
+                <img src="img/act.png" class="centre" width="500" height="300" style="border:0;">
+             </div>
+            </div>
+     </section>
+     <section class="af7">
+        <div class="row">
+         <div class="f7">
+             <h2>Video Conference</h2>
+             <p>Our app provides live interraction and reception with specialist doctors. When a user registers they are able to
+                 register to join the live meetings and get to know more about the cure and precautions of diseases and ailments. 
+                 Also users gets appointments with doctors to discuss thier problems and get proper treatment for it.
+             </p>
+         </div>
+         <div class="f77">
+            <img src="img/confo.png" class="centre" style="vertical-align:middle">
+         </div>
+        </div>
+ </section>
+
+
+        <!--FOOTER-->
+         <section class="footer">
+
+             <div class="icons">
+                 <i class="fa fa-facebook"></i>
+                 <i class="fa fa-twitter"></i>
+                 <i class="fa fa-linkedin"></i>
+                 <i class="fa fa-github"></i>
+                 <i class="fa fa-instagram"></i>
+
+             </div>
+         </section>
+        
+        
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0px";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        </body>
+        </html>
